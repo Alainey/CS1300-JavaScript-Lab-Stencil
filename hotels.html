@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Chivo|Comfortaa:300|Montserrat" rel="stylesheet">
+
+<style type="text/css">
+
+  body {
+    margin-top: 100px;
+    font-family: 'Comfortaa', cursive;
+    color: black;
+  }
+
+  ul {
+  	flex-direction: column;
+  	justify-content: center;
+  	margin-right: 40px;
+  }
+
+  ul li {
+  	width: 70%;
+  	display:flex;
+  	margin-bottom: 20px;
+  }
+
+</style>
+
+<title>Add Houses and Hotels</title>
+
+</head>
+
+<body>
+  <center>
+    <p><h1>Monopoly: Houses and Hotels</h1></p>
+    <p>You just escaped jail, and now you're ready to clap back! You land on Virginia Avenue, and you realize that you ALSO own State Avenue and St. Charles Place. You're legally permitted to purchases houses, build hotels, and therefore bankrupt your fellow players.</p>
+    <p>By the rules of Monopoly, you must purchase 4 houses before you can build a hotel. We previously created constants for each property– let's now abstract that logic.</p>
+    <p id="property_text"></p>
+    <p id="house_text"></p>
+    <p id = "hotel_text"></p>
+    <button type="button" onclick="VIRGINIA_AVENUE.buildHouse()">Build a House</button>
+    <button type="button" onclick="VIRGINIA_AVENUE.buildHotel()">Build a Hotel</button>
+  </center>
+
+</body>
+
+<script src="hotels.js"></script>
+</html>
