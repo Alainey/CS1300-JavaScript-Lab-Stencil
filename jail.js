@@ -29,7 +29,7 @@ function roll() {
 		//note that the elements that you can change are "rolls_text" "results_text" and "jail_text" 
 		document.getElementById("rolls_text").innerHTML = "You rolled a " + roll1 + " and a " + roll2 + ".";
 		document.getElementById("results_text").innerHTML = "This line can be used to display more information about roll results.";
-		document.getElementById("results_text").innerHTML = "This line can be used to display whether or not the player is still in jail.";
+		document.getElementById("jail_text").innerHTML = "This line can be used to display whether or not the player is still in jail.";
 
 		//TODO: check if roll1 and roll2 are the same
 		//TODO: print out a statement letting the player know what their rolls are and if they are out of jail

@@ -14,7 +14,7 @@
 
 
 //TODO: add the information to the webpage using getElementById().innerHTML
-document.getElementById("player").innerHTML = player.name + ", using the " + player.piece + " game peice, currently has $" + player.money + "." ;
+document.getElementById("player").innerHTML = player.name + ", using the " + player.piece + " game piece, currently has $" + player.money + "." ;
 document.getElementById("property1").innerHTML = 
 	player.name + " owns " + property1.name + ", a(n) " + property1.color + " property that cost " + property1.price + " and has a base rent of " + property1.rent + ".";
 document.getElementById("property2").innerHTML = 
